@@ -6,7 +6,6 @@ import { signIn, getSession, getProviders } from 'next-auth/react';
 import {
   Box,
   Button,
-  Chip,
   Divider,
   Grid,
   Link,
@@ -59,13 +58,13 @@ const LoginPage = () => {
               <Typography variant="h1" component="h1">
                 Iniciar Sesión
               </Typography>
-              <Chip
+              {/* <Chip
                 label="No reconocemos ese usuario / contraseña"
                 color="error"
                 icon={<ErrorOutline />}
                 className="fadeIn"
                 sx={{ display: showError ? 'flex' : 'none' }}
-              />
+              /> */}
             </Grid>
 
             <Grid item xs={12}>
